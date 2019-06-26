@@ -53,7 +53,6 @@ function keyReleased() {
 
 function setup() {
   let fs = fullscreen();
-
   //Serial Communication
   serial = new p5.SerialPort(); // make a new instance of  serialport librar
   // serial.on('data', serialEvent); // callback for new data coming in
